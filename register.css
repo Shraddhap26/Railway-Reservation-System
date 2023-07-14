@@ -1,0 +1,31 @@
+.{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+    text-align: center;
+	background-color:pink;
+	background-attachment: fixed;
+	background-size: 92%;
+	font-family: new time roman;
+}
+.btn{
+	width: 150px;
+	height: 40px;
+	border-radius: 10px;
+	font-size: 20px;
+	background-color:cyan;
+
+h2{
+	font-size: 30px;
+	color: red;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+form-control{
+	font-size:20px;
+	margin-top: 20px;
+	font-weight: normal;
+}

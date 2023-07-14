@@ -1,0 +1,30 @@
+.{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	text-align: center;
+	background-color: violet;
+	background-attachment: fixed;
+	background-size: 92%;
+	font-family: new time roman;
+}
+
+.btn{
+	width: 150px;
+	height: 40px;
+	border-radius: 10px;
+	font-size: 20px;
+	background-color:cyan;
+
+	
+}	
+label{
+	font-size:20px;
+	margin-top: 20px;
+	font-weight: normal;
+	border-radius: 40px;
+	
+}
+

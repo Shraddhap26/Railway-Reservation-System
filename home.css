@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    background-image: url(img3.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: new time roman;
+}
+
+.container{
+	background: gray;
+}
+h1{
+	font-size: 40px;
+	color: red;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.sidebar{
+	
+	text-align: left;
+	font-family: 'Roboto',sans-serif;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	left:0;
+	width: 250px;
+	height: 100%;
+	background: orange;
+	
+}
+.sidebar header{
+	font-size: 22px;
+	color: white;
+	text-align: center;
+	line-height:70px;
+	background: #063146;
+	user-select: none;
+	
+}
+.sidebar ul a{
+	color: white;
+	padding : 20px;
+}

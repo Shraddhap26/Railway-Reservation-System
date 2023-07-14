@@ -1,0 +1,62 @@
+body{
+    text-align: center;
+    background-image: url(img3.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: new time roman;
+}
+
+.container{
+	background: gray;
+}
+h1{
+	font-size: 40px;
+	color: red;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+li{
+  float: left;
+           
+  }
+.sh{
+			
+    font-size:35px;
+    color:white;
+    padding:20px 15px;
+}
+
+nav{
+			background: #594848;
+			width: 100%;
+			overflow:auto;
+
+		}
+
+nav a{
+			//width:100px;
+			display: inline-block;
+			text-decoration: none;
+			text-align: center;
+			background:#594848;
+			font-size:20px;
+			color:orange;
+			padding:0px 7px;
+			font-family: arial; 
+		}
+
+		nav a:hover{
+			background: pink;
+			color: #fff;
+		}
+
+
+
+
+
