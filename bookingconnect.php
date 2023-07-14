@@ -1,4 +1,5 @@
 <?php
+/* Code for Validation(using regular expression and preg_match) */
 session_start();
 if(isset($_POST['cont_payment1']))
 {
@@ -12,6 +13,7 @@ $gen1=$_POST['gender'];
 $seat1=$_POST['seats'];
 $mobileno1=$_POST['mobileno'];
 $len2=strlen($mobileno1);
+  /* Code for Validating name */
       $pattern = "^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$^";  
             if (!preg_match ("/^[a-zA-z ]*$/", $pname1) ) 
       {  
@@ -20,7 +22,7 @@ $len2=strlen($mobileno1);
                
             
       } 
-   
+    /* Code for Validating aadhar card no. and it should be 12 digit*/
    elseif (!preg_match ("/^[0-9]*$/ ", $Aadharno) )
           {  
              echo"<script>alert('Please Enter valid numeric Aadhar card number.');window.location='searchtrains.php'</script>";
