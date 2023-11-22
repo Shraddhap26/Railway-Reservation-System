@@ -2,4 +2,4 @@
 This is a Railway Reservation System project.
 This is a online system so user can book their tickets online using this system. User can book tickets anytime.
 This project is implemented using PHP language.
-Also database is connected.
+Also database is connected. To run this project first we need to create tables in myphpadmin
